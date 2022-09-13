@@ -49,7 +49,7 @@ console.log(me.favThreeFoods[2]);
   - Console.log your updated shoe count. 
 */
 
-me.shoeCount += 1
+me.shoeCount += 1;
 console.log(me.shoeCount);
 
 /* 5. Add a new property to an existing object.
@@ -59,5 +59,5 @@ console.log(me.shoeCount);
   - Console.log your object
 */
 
-
-
+me.favoriteColor = 'mint green';
+console.log(me);
